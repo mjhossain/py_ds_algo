@@ -129,14 +129,15 @@ Inserting/Removing at the middle of a list is O(n) as we re-assign the indexes
 Searching by value is O(n)
 Searching by index is O(1)
 
+<br />
 
-
-
-
-
-
+#### Pointers
+For immutable objects like an integer variable the value cannot be changes, instead when a variable is reassigned the memory address changes and the varibale simply points to a differen address with the new value.
+However, with mutable objects such as dictionary in Python, values can be changed without reassigned new location in memory. 
+Once there is no variable pointed to a mutable object Python's Garbage Collection takes into effect and that memory address is cleaned up.
 
 
 <hr />
 #### External Resources
-[Big-O Cheatsheet](https://www.bigocheatsheet.com/)
+[Big-O Cheatsheet](https://www.bigocheatsheet.com/) 
+
